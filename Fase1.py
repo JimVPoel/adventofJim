@@ -4,20 +4,11 @@ print("Hallo", naam)
 
 
 
-
-
-
-
-
 # opdracht 2 van fase 1
 A = int(input("Voer een nummer in: "))
 B = int(input("Voer nog een nummer in: "))
 
 print(A + B)
-
-
-
-
 
 
 
@@ -36,12 +27,6 @@ print("Over 10 jaar ben je ongeveer", leeftijd_over_10_jaar, "jaar oud.")
 
 
 
-
-
-
-
-
-
 # opdracht 4 van fase 1
 # Vraag wat de gebruiker invoert
 keuze = input("Welke temperatuur voer je in? Fahrenheit of Celsius? (F/C): ").upper()
@@ -55,8 +40,6 @@ if keuze == "F":
 if keuze == "C":
     # Gebruiker gaf Celsius → omrekenen naar Fahrenheit
     print("Dat is", round((temperatuur * 9 / 5) + 32, 1), "°F")
-
-
 
 
 
